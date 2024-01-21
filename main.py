@@ -24,6 +24,9 @@ class NAB(commands.Bot):
         self.logger = logging.getLogger(self.__class__.__name__)
         self.ext_dir = ext_dir
         self.synced = False
+        # set presence
+        self.activity = discord.Activity(
+            type=discord.ActivityType.listening, name="@N-A-B help")
 
     async def _load_extensions(self) -> None:
         if not os.path.isdir(self.ext_dir):

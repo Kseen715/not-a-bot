@@ -10,14 +10,14 @@ class Ping(commands.Cog):
     @commands.command(name="ping", description="Ping to the server")
     async def ping(self, ctx: commands.Context):
         """
-        Ping to the server
+        - Время отклика бота
 
         Parameters
         ----------
         ctx : commands.Context
             The context object.
         """
-        await ctx.send(f"> Pong! {round(self.bot.latency * 1000)}ms")
+        await ctx.send(f"> Понг! {round(self.bot.latency * 1000)}ms")
 
 
 async def setup(bot):

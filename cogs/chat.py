@@ -12,14 +12,14 @@ class Chat(commands.Cog):
     @commands.has_permissions(administrator=True)
     async def prune(self, ctx: commands.Context, amount: int):
         """
-        Ping to the server
+        - Удаление сообщений
 
         Parameters
         ----------
         ctx : commands.Context
             The context object.
         amount : int
-            The amount of messages to delete.
+            - Количество сообщений для удаления
         """
         # +1 to include the command message itself
         await ctx.channel.purge(limit=amount+1)
@@ -28,16 +28,14 @@ class Chat(commands.Cog):
     @commands.has_permissions(administrator=True)
     async def prunetime(self, ctx: commands.Context, time: str):
         """
-        Ping to the server
+        - Очистка сообщений за последнее время
 
         Parameters
         ----------
         ctx : commands.Context
             The context object.
-        amount : int
-            The amount of messages to delete.
         time : int
-            The amount of time to wait before deleting messages.
+            - Время для удаления (пример: 1d2h3m4s)
         """
         # 365d23h59m59s is the maximum time, parse it to seconds
         time = time.replace("d", "*86400+").replace("h",

@@ -7,6 +7,7 @@ import json
 from discord import Embed, Interaction
 from discord.ui import Button, View
 import Levenshtein
+import random
 
 FFMPEG_OPTIONS = {
     'before_options': '-reconnect 1 -reconnect_streamed 1 -reconnect_delay_max 5', 'options': '-vn'}
@@ -30,14 +31,14 @@ class Player(commands.Cog):
     @commands.command(name="play", description="Воспроизвести трек (YouTube)")
     async def play(self, ctx: commands.Context, url):
         """
-        Play a song.
+        - Воспроизвести трек
 
         Parameters
         ----------
         ctx : commands.Context
             The context object.
         url : str
-            The link to the song (youtube)
+            - Ссылка на трек (YouTube)
         """
 
         if ctx.author.voice.channel:
@@ -73,7 +74,7 @@ class Player(commands.Cog):
     @commands.command(name="stop", description="Остановить воспроизведение")
     async def stop(self, ctx: commands.Context):
         """
-        Stop playing.
+        - Остановить воспроизведение
 
         Parameters
         ----------
@@ -90,7 +91,7 @@ class Player(commands.Cog):
     @commands.command(name="disconnect", description="Отключиться от голосового канала")
     async def disconnect(self, ctx: commands.Context):
         """
-        Disconnect from a voice channel.
+        - Отключиться от голосового канала
 
         Parameters
         ----------
@@ -107,7 +108,7 @@ class Player(commands.Cog):
     @commands.command(name="radiolist", description="Показать список радиостанций")
     async def radiolist(self, ctx: commands.Context):
         """
-        Disconnect from a voice channel.
+        - Показать список радиостанций
 
         Parameters
         ----------
@@ -194,14 +195,14 @@ class Player(commands.Cog):
     @commands.command(name="radio", description="Подключиться к радиостанции")
     async def radio(self, ctx: commands.Context, name):
         """
-        Connect to a radio station.
+        - Подключиться к радиостанции
 
         Parameters
         ----------
         ctx : commands.Context
             The context object.
-        url : str
-            The link to the song (youtube)
+        name : str
+            - Название радиостанции
         """
 
         if ctx.author.voice.channel:
@@ -222,24 +223,45 @@ class Player(commands.Cog):
                            ] = radio_raw[group][radio]
             # use Levenshtein distance to find the closest match
             closest_match = ''
-            closest_match_ratio = 0
+            closest_match_ratio = -9999999999
             for station in radios:
                 ratio = Levenshtein.ratio(station.lower(), name.lower())
                 if ratio > closest_match_ratio:
                     closest_match_ratio = ratio
                     closest_match = station
-            if closest_match_ratio > 0.1:
-                name = closest_match
-            else:
-                await ctx.send(f"Радиостанция не найдена ({round(closest_match_ratio, 2)}) :(")
-                return
+            if closest_match_ratio == 0:
+                # pick random
+                closest_match = random.choice(list(radios.keys()))
+            name = closest_match
+
+            def get_probability_msg(ratio):
+                if ratio >= 0.99:
+                    return "вы же ввели запрос точно как название радиостанции... удивительно..."
+                elif ratio >= 0.9:
+                    return "да, да! это то, что вы искали"
+                elif ratio >= 0.8:
+                    return "да, это то, что вы искали"
+                elif ratio >= 0.7:
+                    return "да, это то, что вы искали, но пишите точнее"
+                elif ratio >= 0.6:
+                    return "надеюсь, это то, что вы искали"
+                elif ratio >= 0.5:
+                    return "если это не то, что вы искали, то что же тогда? :sob:"
+                elif ratio >= 0.4:
+                    return "если я не ошибаюсь, то это то, что вы искали"
+                elif ratio >= 0.3:
+                    return "это не то, что вы искали, но похоже на то"
+                elif ratio >= 0.2:
+                    return "сомневаюсь, что это то, что вы искали"
+                else:
+                    return "это определенно не то, что вы искали, но лучше, чем ничего..."
 
             embed = discord.Embed(title="Играет радио",
                                   description=f"\"__**{name}**__\"\n"
-                                  + f"по результату поиска: {round(closest_match_ratio, 2)}", color=EMBED_COLOR)
+                                  + get_probability_msg(closest_match_ratio), color=EMBED_COLOR)
             stopped_embed = discord.Embed(title="Играло радио",
                                           description=f"\"__**{name}**__\"\n"
-                                          + f"по результату поиска: {round(closest_match_ratio, 2)}", color=EMBED_COLOR)
+                                          + get_probability_msg(closest_match_ratio), color=EMBED_COLOR)
 
             voice_client = ctx.voice_client
 
