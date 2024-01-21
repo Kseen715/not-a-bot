@@ -1,0 +1,484 @@
+{
+    "record": {
+        "record": {
+            "url": "https://radiorecord.hostingradio.ru/rr_main96.aacp",
+            "name": "Record",
+            "desc": "Танцевальный мейнстрим"
+        },
+        "tiesto": {
+            "url": "https://radiorecord.hostingradio.ru/tiesto96.aacp",
+            "name": "Tiesto",
+            "desc": "Лучшие треки, ремиксы и коллабы"
+        },
+        "david_guetta": {
+            "url": "https://radiorecord.hostingradio.ru/guetta96.aacp",
+            "name": "David Guetta",
+            "desc": "Лучшие треки, ремиксы и коллабы"
+        },
+        "armin_van_buuren": {
+            "url": "https://radiorecord.hostingradio.ru/armin96.aacp",
+            "name": "Armin van Buuren",
+            "desc": "Лучшие треки, ремиксы и коллабы"
+        },
+        "russian_mix": {
+            "url": "https://radiorecord.hostingradio.ru/rus96.aacp",
+            "name": "Russian Mix",
+            "desc": "Русские хиты в танцевальной обработке: Zivert, Niletto, Rasa"
+        },
+        "90s_super_disco": {
+            "url": "https://radiorecord.hostingradio.ru/sd9096.aacp",
+            "name": "Супердискотека 90-х",
+            "desc": "Танцевальные боевики нашей юности Руки Вверх, 2 Unlimited, Masterboy"
+        },
+        "russian_hits": {
+            "url": "https://radiorecord.hostingradio.ru/russianhits64.aacp",
+            "name": "Russian Hits",
+            "desc": "Русский танцевальный поп: Клава Кока, Niletto, Тима Белорусских"
+        },
+        "chill_out": {
+            "url": "https://radiorecord.hostingradio.ru/chil96.aacp",
+            "name": "Chill-Out",
+            "desc": "Расслабляющий вайб"
+        },
+        "deep": {
+            "url": "https://radiorecord.hostingradio.ru/deep96.aacp",
+            "name": "Deep",
+            "desc": "Глубокое house-звучание"
+        },
+        "megamix": {
+            "url": "https://radiorecord.hostingradio.ru/mix96.aacp",
+            "name": "Megamix",
+            "desc": "Mash-up из главных хитов Рекорда со скоростью 5 треков в минуту!"
+        },
+        "remix": {
+            "url": "https://radiorecord.hostingradio.ru/rmx96.aacp",
+            "name": "Remix",
+            "desc": "Иностранные хиты в танцевальной обработке: Black Eyed Peas, Ariana Grande, Ed Sheeran"
+        },
+        "00s_record": {
+            "url": "https://radiorecord.hostingradio.ru/200096.aacp",
+            "name": "Рекорд 00-х",
+            "desc": "Хиты танцполов нулевых: ATB, Benassi, Klubbheads и другие"
+        },
+        "big_hits": {
+            "url": "https://radiorecord.hostingradio.ru/bighits96.aacp",
+            "name": "Big Hits",
+            "desc": "Зарубежные танцевальные хиты: Dua Lipa, Ave Max, Sia"
+        },
+        "fuko_pendulum": {
+            "url": "https://radiorecord.hostingradio.ru/mf96.aacp",
+            "name": "Маятник Фуко",
+            "desc": "Новая школа русского рэпа без цензуры: Morgenshtern, Markul, Obladaet & co. [18+]"
+        },
+        "chill_house": {
+            "url": "https://radiorecord.hostingradio.ru/chillhouse96.aacp",
+            "name": "Chill House",
+            "desc": "Легкий, мелодичный вайб"
+        },
+        "trancemission": {
+            "url": "https://radiorecord.hostingradio.ru/tm96.aacp",
+            "name": "Trancemission",
+            "desc": "Лучшее из транс-музыки: Armin, Above & Beyond, Christina Novelli"
+        },
+        "80s_record": {
+            "url": "https://radiorecord.hostingradio.ru/198096.aacp",
+            "name": "Record 80-х",
+            "desc": "Ритмы советской и зарубежной эстрады. C. C. Catch, Modern Talking, В. Леонтьев и Ласковый Май"
+        },
+        "rock": {
+            "url": "https://radiorecord.hostingradio.ru/rock96.aacp",
+            "name": "Rock",
+            "desc": "Первоапрельский спецпроект: от Цоя до Metallica"
+        },
+        "russian_gold": {
+            "url": "https://radiorecord.hostingradio.ru/russiangold96.aacp",
+            "name": "Russian Gold",
+            "desc": "Российские хиты в ремиксах"
+        },
+        "pirate_station": {
+            "url": "https://radiorecord.hostingradio.ru/ps96.aacp",
+            "name": "Pirate Station",
+            "desc": "Лучшее из drum & bass: Pendulum, Chase & Status, Camo & Krooked"
+        },
+        "innocence": {
+            "url": "https://radiorecord.hostingradio.ru/ibiza96.aacp",
+            "name": "Innocence",
+            "desc": "Techno, Minimal, Deep. Саунд как у Solomun, Boris Brejcha и Nina Kravitz"
+        },
+        "party_24_7": {
+            "url": "https://radiorecord.hostingradio.ru/party96.aacp",
+            "name": "Party 24/7",
+            "desc": "Вечеринка с танцевальными хитами"
+        },
+        "record_gold": {
+            "url": "https://radiorecord.hostingradio.ru/gold96.aacp",
+            "name": "Record Gold",
+            "desc": "Хиты Рекорда эпохи Avicii и Swedish House Mafia"
+        },
+        "summer_dance": {
+            "url": "https://radiorecord.hostingradio.ru/summerparty96.aacp",
+            "name": "Summer Dance",
+            "desc": "Летние клубные хиты 24/7"
+        },
+        "hype": {
+            "url": "https://radiorecord.hostingradio.ru/hype96.aacp",
+            "name": "На Хайпе",
+            "desc": "Топ российского стриминга"
+        },
+        "phonk": {
+            "url": "https://radiorecord.hostingradio.ru/phonk96.aacp",
+            "name": "Phonk",
+            "desc": "Атмосфера дрифта и уличных гонок"
+        },
+        "hands_up": {
+            "url": "https://radiorecord.hostingradio.ru/rv96.aacp",
+            "name": "Руки Вверх!",
+            "desc": "24 часа в сутки - только песни Руки Вверх!"
+        },
+        "rap_hits": {
+            "url": "https://radiorecord.hostingradio.ru/rap96.aacp",
+            "name": "Rap Hits",
+            "desc": "Рэп новой волны из России и из-за рубежа"
+        },
+        "rap_classics": {
+            "url": "https://radiorecord.hostingradio.ru/rapclassics96.aacp",
+            "name": "Rap Classics",
+            "desc": "Хип-хоп золотого периода: 2Pac, Cypress Hill, Notorius BIG, ONYX"
+        },
+        "trance_classics": {
+            "url": "https://radiorecord.hostingradio.ru/trancehits96.aacp",
+            "name": "Trance Classics",
+            "desc": "Главные хиты trance-музыки: Above&Beyond, Armin van Buuren, Ferry Corsten"
+        },
+        "vip_house": {
+            "url": "https://radiorecord.hostingradio.ru/vip96.aacp",
+            "name": "VIP House",
+            "desc": "Изысканный саунд закрытых вечеринок"
+        },
+        "bass_house": {
+            "url": "https://radiorecord.hostingradio.ru/jackin96.aacp",
+            "name": "Bass House",
+            "desc": "Современный house с характерным басом: Malaa, Volac, Valentino Khan"
+        },
+        "organic": {
+            "url": "https://radiorecord.hostingradio.ru/organic96.aacp",
+            "name": "Organic",
+            "desc": "Легкий грув. В стиле Tim Green и Sebastien Leger"
+        },
+        "black_rap": {
+            "url": "https://radiorecord.hostingradio.ru/yo96.aacp",
+            "name": "Black Rap",
+            "desc": "Рэп на английском"
+        },
+        "summer_lounge": {
+            "url": "https://radiorecord.hostingradio.ru/summerlounge64.aacp",
+            "name": "Summer Lounge",
+            "desc": "Летний чил в стиле Cafe del Mar"
+        },
+        "dnb_classics": {
+            "url": "https://radiorecord.hostingradio.ru/drumhits96.aacp",
+            "name": "D'n'B Classics",
+            "desc": "Золотые хиты drum'n'bass Aphrodite, Pendulum, Sub Focus"
+        },
+        "10s_dance": {
+            "url": "https://radiorecord.hostingradio.ru/201096.aacp",
+            "name": "10's Dance",
+            "desc": "Танцевальные хиты десятых"
+        },
+        "edm": {
+            "url": "https://radiorecord.hostingradio.ru/club96.aacp",
+            "name": "EDM",
+            "desc": "Музыка стадионов"
+        },
+        "lofi": {
+            "url": "https://radiorecord.hostingradio.ru/lofi96.aacp",
+            "name": "Lo-Fi",
+            "desc": "Ламповый бит и треск винила. В стиле Nujabes и J Dilla"
+        },
+        "workout": {
+            "url": "https://radiorecord.hostingradio.ru/workout96.aacp",
+            "name": "Workout",
+            "desc": "Бит для спортивного тонуса"
+        },
+        "neurofunk": {
+            "url": "https://radiorecord.hostingradio.ru/neurofunk96.aacp",
+            "name": "Neurofunk",
+            "desc": "Технологичный и стремительный бит: Black Sun Empire, Dimension, Camo & Krooked"
+        },
+        "breaks": {
+            "url": "https://radiorecord.hostingradio.ru/brks96.aacp",
+            "name": "Breaks",
+            "desc": "Лучшее из breakbeat, nu breaks и jungle"
+        },
+        "tropical": {
+            "url": "https://radiorecord.hostingradio.ru/trop96.aacp",
+            "name": "Tropical",
+            "desc": "Жаркий и солнечный house"
+        },
+        "tech_house": {
+            "url": "https://radiorecord.hostingradio.ru/techouse96.aacp",
+            "name": "Tech House",
+            "desc": "На стыке хауса и техно. В стиле Fisher и Dont Blink"
+        },
+        "trap": {
+            "url": "https://radiorecord.hostingradio.ru/trap96.aacp",
+            "name": "Trap",
+            "desc": "Главные Trap-хиты: Yellow Claw, Apashe, DJ Snake"
+        },
+        "liquid_funk": {
+            "url": "https://radiorecord.hostingradio.ru/liquidfunk96.aacp",
+            "name": "Liquid Funk",
+            "desc": "Атмосферный drum'n'bass"
+        },
+        "dubstep": {
+            "url": "https://radiorecord.hostingradio.ru/dub96.aacp",
+            "name": "Dubstep",
+            "desc": "Басы на максимум!"
+        },
+        "house_hits": {
+            "url": "https://radiorecord.hostingradio.ru/househits96.aacp",
+            "name": "House Hits",
+            "desc": "Свежие house-новинки"
+        },
+        "goa_psy": {
+            "url": "https://radiorecord.hostingradio.ru/goa96.aacp",
+            "name": "GOA/PSY",
+            "desc": "Психоделический и Goa-trance"
+        },
+        "trancehouse": {
+            "url": "https://radiorecord.hostingradio.ru/trancehouse96.aacp",
+            "name": "Trancehouse",
+            "desc": "Trancehouse - сочетание трансовой мелодики и хаусового бита"
+        },
+        "ambient": {
+            "url": "https://radiorecord.hostingradio.ru/ambient96.aacp",
+            "name": "Ambient",
+            "desc": "Атмосферный саунд"
+        },
+        "top_100_edm": {
+            "url": "https://radiorecord.hostingradio.ru/top100edm96.aacp",
+            "name": "TOP 100 EDM",
+            "desc": "Актуальный топ электронной музыки"
+        },
+        "dream_dance": {
+            "url": "https://radiorecord.hostingradio.ru/dream96.aacp",
+            "name": "Dream Dance",
+            "desc": "Мелодичный trance 90х-00х: Robert Miles, ATB, Blank&Jones"
+        },
+        "techno": {
+            "url": "https://radiorecord.hostingradio.ru/techno96.aacp",
+            "name": "Techno",
+            "desc": "Техно для тех, кто любит пожёстче"
+        },
+        "live_dj_sets": {
+            "url": "https://radiorecord.hostingradio.ru/livedjsets96.aacp",
+            "name": "Live DJ-sets",
+            "desc": "Лучшие живые сеты от звезд электронной сцены"
+        },
+        "70s_dance": {
+            "url": "https://radiorecord.hostingradio.ru/197096.aacp",
+            "name": "70's Dance",
+            "desc": "Легендарный грув. Abba, Boney M, Bee Gees"
+        },
+        "technopop": {
+            "url": "https://radiorecord.hostingradio.ru/technopop96.aacp",
+            "name": "Technopop",
+            "desc": "Технопоп эпохи 90-х: E-Type, Masterboy, Culture Beat"
+        },
+        "minimal_tech": {
+            "url": "https://radiorecord.hostingradio.ru/mini96.aacp",
+            "name": "Minimal/Tech",
+            "desc": "Саунд изысканных и дорогих party"
+        },
+        "dream_pop": {
+            "url": "https://radiorecord.hostingradio.ru/dreampop96.aacp",
+            "name": "Dream Pop",
+            "desc": "Лёгкий вайб для отдыха и хорошего настроения"
+        },
+        "house_classics": {
+            "url": "https://radiorecord.hostingradio.ru/houseclss96.aacp",
+            "name": "House Classics",
+            "desc": "Золотой фонд мелодичных house-хитов"
+        },
+        "uplifting": {
+            "url": "https://radiorecord.hostingradio.ru/uplift96.aacp",
+            "name": "Uplifting",
+            "desc": "Атмосферный и космический trance"
+        },
+        "eurodance": {
+            "url": "https://radiorecord.hostingradio.ru/eurodance96.aacp",
+            "name": "Eurodance",
+            "desc": "Дискотечные бэнгеры 90-х: Culture Beat, Haddaway, La Bouche"
+        },
+        "60s_dance": {
+            "url": "https://radiorecord.hostingradio.ru/cadillac96.aacp",
+            "name": "60's Dance",
+            "desc": "Танцевальная музыка эпохи рок-н-ролла"
+        },
+        "future_rave": {
+            "url": "https://radiorecord.hostingradio.ru/futurerave96.aacp",
+            "name": "Future Rave",
+            "desc": "Включай и ты на рейве!"
+        },
+        "future_house": {
+            "url": "https://radiorecord.hostingradio.ru/fut96.aacp",
+            "name": "Future House",
+            "desc": "Future и Jackin' house: Don Diablo, Tchami, Oliver Heldens"
+        },
+        "uk_garage": {
+            "url": "https://radiorecord.hostingradio.ru/ukgarage96.aacp",
+            "name": "UK Garage",
+            "desc": "Атмосфера клубов восточного Лондона конца 90-х"
+        },
+        "reggae": {
+            "url": "https://radiorecord.hostingradio.ru/reggae96.aacp",
+            "name": "Reggae",
+            "desc": "Танцевальный вайб с берегов Ямайки"
+        },
+        "disco_funk": {
+            "url": "https://radiorecord.hostingradio.ru/discofunk96.aacp",
+            "name": "Disco/Funk",
+            "desc": "Disco-саунд нового тысячелетия"
+        },
+        "dancecore": {
+            "url": "https://radiorecord.hostingradio.ru/dc96.aacp",
+            "name": "Dancecore",
+            "desc": "Dance на скорости до 150bpm"
+        },
+        "hard_bass": {
+            "url": "https://radiorecord.hostingradio.ru/hbass96.aacp",
+            "name": "Hard Bass",
+            "desc": "Расколбас родившийся в Петербурге."
+        },
+        "electro": {
+            "url": "https://radiorecord.hostingradio.ru/elect96.aacp",
+            "name": "Electro",
+            "desc": "Лучшее в Electro-house: Wolfgang Gartner, Knife Party, Curbi"
+        },
+        "progressive": {
+            "url": "https://radiorecord.hostingradio.ru/progr96.aacp",
+            "name": "Progressive",
+            "desc": "Лучшее из progressive trance & house"
+        },
+        "edm_classics": {
+            "url": "https://radiorecord.hostingradio.ru/edmhits96.aacp",
+            "name": "EDM Classics",
+            "desc": "Фестивальные гимны"
+        },
+        "hardstyle": {
+            "url": "https://radiorecord.hostingradio.ru/teo96.aacp",
+            "name": "Hardstyle",
+            "desc": "Маршевый бас и мелодичный лид: бескомпромиссная смесь"
+        },
+        "darkside": {
+            "url": "https://radiorecord.hostingradio.ru/darkside96.aacp",
+            "name": "Darkside",
+            "desc": "Тёмная сторона drum'n'bass: Noisia, Panacea, Limewax"
+        },
+        "synthwave": {
+            "url": "https://radiorecord.hostingradio.ru/synth96.aacp",
+            "name": "Synthwave",
+            "desc": "Вайб в стиле электронной музыки 80-х"
+        },
+        "latina_dance": {
+            "url": "https://radiorecord.hostingradio.ru/latina96.aacp",
+            "name": "Latina Dance",
+            "desc": "Despacito, Gazolina, Danza Kuduro и подобное"
+        },
+        "tecktonik": {
+            "url": "https://radiorecord.hostingradio.ru/tecktonik96.aacp",
+            "name": "Tecktonik",
+            "desc": "Стиль, породивший танцевальный бум 2000-х"
+        },
+        "future_bass": {
+            "url": "https://radiorecord.hostingradio.ru/fbass96.aacp",
+            "name": "Future Bass",
+            "desc": "Flume, Illenium, Marshmello"
+        },
+        "gop_fm": {
+            "url": "https://radiorecord.hostingradio.ru/gop96.aacp",
+            "name": "Гоп FM",
+            "desc": "Первоапрельский спецпроект. Памп и лоходенс"
+        },
+        "midtempo": {
+            "url": "https://radiorecord.hostingradio.ru/mt96.aacp",
+            "name": "Midtempo",
+            "desc": "Dance на минималках"
+        },
+        "jungle": {
+            "url": "https://radiorecord.hostingradio.ru/jungle96.aacp",
+            "name": "Jungle",
+            "desc": "История и современность jungle-музыки: DJ Hype, Shy FX, Ed Rush"
+        },
+        "hypnotic": {
+            "url": "https://radiorecord.hostingradio.ru/hypno96.aacp",
+            "name": "Hypnotic",
+            "desc": "Идеальный бэкграунд для работы или поездки в авто"
+        },
+        "rave_fm": {
+            "url": "https://radiorecord.hostingradio.ru/rave96.aacp",
+            "name": "Rave FM",
+            "desc": "Первоапрельский спецпроект"
+        },
+        "moombahton": {
+            "url": "https://radiorecord.hostingradio.ru/mmbt96.aacp",
+            "name": "Moombahton",
+            "desc": "Синтез house- и reggae-ритмов"
+        },
+        "2_step": {
+            "url": "https://radiorecord.hostingradio.ru/2step96.aacp",
+            "name": "2-step",
+            "desc": "Атмосферные синкопированные ритмы"
+        },
+        "slow_dance_fm": {
+            "url": "https://radiorecord.hostingradio.ru/mdl96.aacp",
+            "name": "Медляк FM",
+            "desc": "Первоапрельский спецпроект"
+        },
+        "freckle_fm": {
+            "url": "https://radiorecord.hostingradio.ru/deti96.aacp",
+            "name": "Веснушка FM",
+            "desc": "Первоапрельский спецпроект: песни детства"
+        },
+        "groove_tribal": {
+            "url": "https://radiorecord.hostingradio.ru/groovetribal96.aacp",
+            "name": "Groove/Tribal",
+            "desc": "Этнический бит"
+        },
+        "guestworker_fm": {
+            "url": "https://radiorecord.hostingradio.ru/gast96.aacp",
+            "name": "Гастарбайтер FM",
+            "desc": "Первоапрельский спецпроект"
+        },
+        "naphthalene_fm": {
+            "url": "https://radiorecord.hostingradio.ru/naft96.aacp",
+            "name": "Нафталин FM",
+            "desc": "Первоапрельский спецпроект: Советская эстрада"
+        },
+        "symphony_fm": {
+            "url": "https://radiorecord.hostingradio.ru/symph96.aacp",
+            "name": "Симфония FM",
+            "desc": "Первоапрельский спецпроект: Моцарт, Бетховен, Чайковский & co"
+        },
+        "complextro": {
+            "url": "https://radiorecord.hostingradio.ru/complextro96.aacp",
+            "name": "Complextro",
+            "desc": "Синтез house и dubstep"
+        },
+        "christmas_chill": {
+            "url": "https://radiorecord.hostingradio.ru/christmaschill96.aacp",
+            "name": "Christmas Chill",
+            "desc": "Downtempo-бит для тёплого новогоднего уюта"
+        },
+        "christmas": {
+            "url": "https://radiorecord.hostingradio.ru/christmas96.aacp",
+            "name": "Christmas",
+            "desc": "Популярные новогодние и рождественские треки"
+        },
+        "russian_winter": {
+            "url": "https://radiorecord.hostingradio.ru/ruszima96.aacp",
+            "name": "Русская Зима",
+            "desc": "Родные согревающие песни"
+        }
+    }
+}

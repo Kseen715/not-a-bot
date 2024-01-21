@@ -13,3 +13,4 @@ setuptools==69.0.3
 wheel==0.42.0
 yarl==1.9.4
 youtube-dl==2021.12.17
+Levenshtein
