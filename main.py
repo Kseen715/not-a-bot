@@ -5,6 +5,7 @@ import traceback
 import typing
 
 import aiohttp
+import asyncio
 import discord
 from discord import app_commands
 from discord.ext import commands
@@ -20,7 +21,7 @@ class NAB(commands.Bot):
         intents.members = True
         intents.message_content = True
         super().__init__(*args, **kwargs,
-                         command_prefix=commands.when_mentioned, intents=intents)
+                         command_prefix=commands.when_mentioned_or('>'), intents=intents)
         self.logger = logging.getLogger(self.__class__.__name__)
         self.ext_dir = ext_dir
         self.synced = False
@@ -53,6 +54,7 @@ class NAB(commands.Bot):
 
     async def setup_hook(self) -> None:
         self.client = aiohttp.ClientSession()
+
         await self._load_extensions()
         if not self.synced:
             await self.tree.sync()
@@ -63,9 +65,13 @@ class NAB(commands.Bot):
         await super().close()
         await self.client.close()
 
+    async def load_cogs(self):
+        await self._load_extensions()
+
     def run(self, *args: typing.Any, **kwargs: typing.Any) -> None:
         load_dotenv()
         try:
+            # asyncio.run(self.load_cogs())
             super().run(str(os.getenv("TOKEN")), *args, **kwargs)
         except (discord.LoginFailure, KeyboardInterrupt):
             self.logger.info("Exiting...")
@@ -82,11 +88,17 @@ class NAB(commands.Bot):
 
 
 def main() -> None:
-    logging.basicConfig(level=logging.INFO,
-                        format="[%(asctime)s] %(levelname)s: %(message)s")
-    bot = NAB(ext_dir="cogs")
+    try:
+        logging.basicConfig(level=logging.INFO,
+                            format="[%(asctime)s] %(levelname)s: %(message)s")
+        bot = NAB(ext_dir="cogs")
 
-    bot.run()
+        bot.run()
+
+    except KeyboardInterrupt:
+        bot.logger.info("Exiting...")
+        asyncio.run(bot.close())
+        asyncio.run(asyncio.sleep(15))
 
 
 if __name__ == "__main__":
