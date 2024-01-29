@@ -35,7 +35,7 @@ services:
 
 ### Raw python:
 
-Install [FFMPEG](https://ffmpeg.org/download.html).
+Install [FFmpeg](https://ffmpeg.org/download.html).
 
 ```
 python3 pip install -r requirements.txt
@@ -56,7 +56,7 @@ python3 main.py
 
 ### Python venv:
 
-Install [FFMPEG](https://ffmpeg.org/download.html).
+Install [FFmpeg](https://ffmpeg.org/download.html).
 
 #### On Linux:
 
