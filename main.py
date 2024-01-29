@@ -20,8 +20,9 @@ class NAB(commands.Bot):
         intents = discord.Intents.all()
         intents.members = True
         intents.message_content = True
+        __prefix = os.getenv("PREFIX")
         super().__init__(*args, **kwargs,
-                         command_prefix=commands.when_mentioned_or('>'), intents=intents)
+                         command_prefix=commands.when_mentioned_or(__prefix), intents=intents)
         self.logger = logging.getLogger(self.__class__.__name__)
         self.ext_dir = ext_dir
         self.synced = False
