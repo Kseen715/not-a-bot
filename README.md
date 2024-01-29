@@ -13,6 +13,8 @@ This is musical Discord bot.
 - `radio [name]` - play direct radio stream from the lib
 - `radiolist` - show lib of radiostations
 - `stop` - stop whatever plays now
+- `prune [count]` - delete [count] messages (admin only)
+- `prunetime [time (XXdXXhXXmXXs)]` - delete messages that was sent in [time] period (admin only)
 - `play` - (WIP) play audio from YT video
 
 ## Usage
